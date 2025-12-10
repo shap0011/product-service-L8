@@ -3,75 +3,76 @@ use crate::configuration::Settings;
 
 pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
-        Product {
-            id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
-        },
-        Product {
-            id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
-        },
-        Product {
-            id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
-        },
-        Product {
-            id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
-        },
-        Product {
-            id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
-        },
-        Product {
-            id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
-        },
-        Product {
-            id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
-        },
-        Product {
-            id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
-        },
-        Product {
-            id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
-        },
-        Product {
-            id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
-        }
-    ]
+    Product {
+        id: 1,
+        name: "Samsung 55\" 4K UHD Smart TV".to_string(),
+        price: 599.99,
+        description: "A stunning 4K Ultra HD television with vivid colors, HDR support, and built-in streaming apps.".to_string(),
+        image: "/tv.jpg".to_string(),
+    },
+    Product {
+        id: 2,
+        name: "Sony Noise Cancelling Headphones".to_string(),
+        price: 349.99,
+        description: "Premium wireless headphones with industry-leading noise cancellation and 30-hour battery life.".to_string(),
+        image: "/headphones.jpg".to_string(),
+    },
+    Product {
+        id: 3,
+        name: "Apple iPad (10th Gen) 64GB".to_string(),
+        price: 449.99,
+        description: "Sleek and powerful tablet featuring a Liquid Retina display and the A14 Bionic chip.".to_string(),
+        image: "/ipad.jpg".to_string(),
+    },
+    Product {
+        id: 4,
+        name: "Dell Inspiron 15.6\" Laptop".to_string(),
+        price: 799.99,
+        description: "Everyday performance laptop with Intel Core i5, 16GB RAM, and 512GB SSD storage.".to_string(),
+        image: "/laptop.jpg".to_string(),
+    },
+    Product {
+        id: 5,
+        name: "Logitech Wireless Keyboard + Mouse Combo".to_string(),
+        price: 59.99,
+        description: "Comfortable, quiet typing with smooth mouse tracking; ideal for office and home use.".to_string(),
+        image: "/keyboard.jpg".to_string(),
+    },
+    Product {
+        id: 6,
+        name: "Nintendo Switch OLED Console".to_string(),
+        price: 449.99,
+        description: "Popular hybrid gaming console with stunning OLED display.".to_string(),
+        image: "/switch.jpg".to_string(),
+    },
+    Product {
+        id: 7,
+        name: "Canon EOS M50 Mark II Camera".to_string(),
+        price: 999.99,
+        description: "Mirrorless camera perfect for photography enthusiasts and content creators.".to_string(),
+        image: "/camera.jpg".to_string(),
+    },
+    Product {
+        id: 8,
+        name: "Fitbit Charge 6 Fitness Tracker".to_string(),
+        price: 229.99,
+        description: "Track your activity, heart rate, sleep, and health metrics with all-day battery life.".to_string(),
+        image: "/fitbit.jpg".to_string(),
+    },
+    Product {
+        id: 9,
+        name: "Bose Bluetooth Home Speaker".to_string(),
+        price: 299.99,
+        description: "Rich, immersive audio with voice assistant support and Wi-Fi streaming.".to_string(),
+        image: "/speaker.jpg".to_string(),
+    },
+    Product {
+        id: 10,
+        name: "HP Envy Wireless All-in-One Printer".to_string(),
+        price: 199.99,
+        description: "Compact home office printer with wireless printing and scanning capabilities.".to_string(),
+        image: "/printer.jpg".to_string(),
+    },
+]
+
 }
